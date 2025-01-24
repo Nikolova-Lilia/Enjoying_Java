@@ -42,6 +42,38 @@ public class Main {
 //        System.out.println(Arrays.deepToString(numbers));
 //        int[][] ar = { {1, 2, 3}, {4, 5, 6}};
 //        System.out.println(Arrays.deepToString(ar));
-        
+
+        //constants
+        //final float PI = 3.14f; //final == const, all capital letters
+
+        //Arithmetic Expressions
+        //double result = (double)10 / (double)3;
+        //System.out.println(result);
+//        int x = 1;
+//        int y = x++;
+//        int z = 1;
+//        int t = ++z;
+//        System.out.println(y);
+//        System.out.println(x);
+//        System.out.println(z);
+//        System.out.println(t);
+//        int m = 1;
+//        m = m + 2; //m += 2;
+//        System.out.println(m);
+
+        //order of operations
+//        int x = (10 + 3) * 2; //() order of priorities: () -> */ -> +-
+//        System.out.println(x);
+
+        //casting and type convertion
+        //Implicit casting - meaning automatically converted
+        //byte -> short -> int -> long -> float -> double
+        short x = 1;
+        int y = x + 2;
+        System.out.println(y);
+        double z = 1.1;
+        double t = z + 2;
+        System.out.println(t);
+
     }
 }
