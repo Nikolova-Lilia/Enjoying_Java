@@ -65,15 +65,7 @@ public class Main {
 //        int x = (10 + 3) * 2; //() order of priorities: () -> */ -> +-
 //        System.out.println(x);
 
-        //casting and type convertion
-        //Implicit casting - meaning automatically converted
-        //byte -> short -> int -> long -> float -> double
-        short x = 1;
-        int y = x + 2;
-        System.out.println(y);
-        double z = 1.1;
-        double t = z + 2;
-        System.out.println(t);
+
 
     }
 }
